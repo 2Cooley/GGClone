@@ -1,0 +1,282 @@
+Story:
+	There is a super evil bad guy who plans on destroying the world. The UN has already tried to send many soldiers to stop this evil man, but none have succeeded. Your mission is to infiltrate his base, rescue your captured comrades, destroy his weapons, and stop him and his evil minions before it's too late.
+	
+Premise:
+	A lone Delta Force soldier is dropped into the outskirts of the base. He must make his way through each section of the base, picking up team-mates as he goes, with the end goal being destroying the evil bad guy's weapons and then capturing/killing him.
+	
+Gameplay:
+	-Each section of the base will be divided into its own level. The player must either kill every enemy in the level, or bring all team-mates to the exit of the level in order to progress to the next level. 
+	-Once a character exits the level, he cannot be used again until the next level
+	-Players eliminate enemies by using whatever guns and abilities their current character has
+	-Each character has unique weapons and abilities that facilitate a diversity of play styles
+	-Once an enemy sees a player character, he will call for reinforcements, imposing a time limit on the player. If the time limit runs out before the player beats the level, he will lose all soldiers who did not make it to the exit
+	-Enemies who are shot and don't die, or who see a dead team-mate will be considered to have seen the player if not killed within a very short amount of time
+	-Unless otherwise noted, enemies will only detect character within their field of view
+	-A player does not have to rescue all team-mates in a level to progress to the next level. However, if a player kills all enemies before rescuing all team-mates, he can decide whether or not he wants to go back and rescue his team-mates before progressing. If he chooses to rescue remaining team-mates, time will continue to count down, and reinforcements will arrive (capturing all remaining team-mates) if time runs out. During this period, the player can decide to leave the level at any time, taking with him all remaining team-mates who are not on the field of play.
+	-The player must avoid damage. If he takes a certain amount of damage (most likely 1-2 hits) his character will be injured, and he will have to be rescued by a different character in order to avoid (re)capture.
+	-On most levels, the player will encounter captured soldiers who he can rescue by escorting them to the exit. Once a captured soldier reaches an exit, he will be available for use in the next level.
+	-Captured soldiers will be invulnerable while being escorted. They can however be spotted by enemies, causing reinforcements to be called.
+	-If a character is escorting a captive and becomes injured, the captive soldier being escorted will become re-captured/ disappear, and the soldier who was just injured will take his place. In other words, you must avoid being injured while escorting a soldier, or risk losing him until a later level. In this way, it is possible to lose most/all of one's soldiers in any given level.
+	-Team-mates who have been (re)captured during play will be available for rescue in later levels.
+	
+Ideas:
+	Characters:
+		-Each character will have a main weapon (infinite ammo), infinite use MAIN ability (may or may not have cooldown depending on ability), and finite use SECONDARY ability
+		-Each main weapon will have a max fire speed, and will need to be reloaded periodically (depending on weapon)
+		-All weapons and abilites not marked SILENT will automatically alert enemies within a certain radius
+		Delta Force Soldier:
+			Attributes:
+				-All-rounder
+				-Fast
+				-Medium Health
+			Main Weapon: M16 
+				-3-round burst
+				-medium range
+				-medium accuracy
+				-Fast reload
+			Main Ability: Take cover
+				-Can take cover behind certain objects in the scene
+				-While in cover, will avoid all damage from the direction of the cover
+				-Can blind fire over cover, possibly killing enemies within a very short range
+				-Very short cooldown
+				-Silent
+			Secondary Ability: Throw grenade
+				-Medium cooldown
+				-Can be lobbed over cover or walls/ lofts
+				-1-3 uses
+		Sniper:
+			Attributes:
+				-Long range expert
+				-Low speed
+				-Low Health
+			Main Weapon: Pistol
+				-Short range
+				-Medium Accuracy
+				-Medium reload
+			Main Ability: Sniper shot
+				-Shoot a far away enemy
+				-High probability of hit
+				-High damage to soft targets
+				-Medium Cooldown
+			Secondary Ability: Ghillie Suit
+				-Makes player invisible for infinite amount of time
+				-Player loses invisibility when they move or shoot
+				-Enemies who have already seen the sniper cannot be fooled again by the same sniper
+				-Medium Cooldown
+				-1-2 uses
+				-Silent
+		Heavy Weapons Specialist:
+			Attributes:
+				-Good against hard targets
+				-Very Slow
+				-High Health
+			Main Weapon: Pistol
+				-Short range
+				-Medium Accuracy
+				-Medium reload
+			Main Ability: Rocket Launcher
+				-Medium range
+				-Slow projectile
+				-Medium Accuracy
+				-AOE splash damage on impact
+				-Very effective against hard targets
+				-Medium cooldown
+			Secondary Ability: Mines
+				-Hurt enemies when moved over
+				-AOE splash damage
+				-Very effective against hard target
+				-Short cooldown
+				-1-2 uses
+				-Silent
+		Scout:
+			Attributes:
+				-Great escort character
+				-Very Fast
+				-Low Health
+			Main Weapon: SMG
+				-Short burst fire
+				-Short range
+				-medium accuracy
+				-Fast reload
+			Main Ability: Dodge Roll
+				-Cover a short distance with a quick roll
+				-Invulnerable to all (non-AOE) projectile damage while rolling
+				-Great for diving between cover/ walls
+				-Short cooldown
+				-Silent
+			Secondary Ability: Eagle Eyes
+				-Highlight all enemies including hidden and offscreen enemies
+				-Will show position of all enemies for a short time
+				-Medium cooldown
+				-1-3 uses
+				-Silent
+		Machine Gunner:
+			Attributes:
+				-Tank character
+				-Slow
+				-High health
+			Main Weapon: Machine gun (? Chain gun ?)
+				-High rate of fire
+				-Medium range
+				-Low accuracy
+				-High reload time
+			Main Ability: Battle Cry
+				-All enemies within a given radius will be paralyzed by fear
+				-Only affects soft targets
+				-Duration of a few seconds
+				-During paralyzation, enemies will not move or attack characters
+			Secondary Ability: Aggro
+				-Draw all enemy fire within a given radius
+				-Last a couple seconds
+				-High damage reduction while aggro'd
+				-1-2 uses
+				-High cooldown
+		Ninja:
+			Attributes:
+				-Stealth Expert
+				-Fast speed
+				-Low health
+				-If detected by an enemy, can become undetected by breaking the line of sight with all enemies
+			Main Weapon: Shuriken
+				-1  fire per reload
+				-Shirt range
+				-Medium accuracy
+				-Short reload
+				-Silent
+			Main Ability: Katana
+				-High damage to soft targets
+				-Very short range
+				-1 hit per swing
+				-Will automatically kill any soft targets who are not aware of the Ninja
+					-Includes most targets who are attacking an aggro'd machine gunner
+				-Medium cooldown
+				-Silent
+			Secondary Ability: Ninjitsu
+				-Cannot be seen by any enemy above a certain distance away
+				-Short duration
+				-Medium cooldown
+				-2-4 uses
+				-Silent
+		Crossbowman:
+			Attributes:
+				-Ranged Stealth Guy
+				-Medium speed
+				-Low Health
+			Main Weapon: Silenced pistol
+				-Short range
+				-Medium accuracy
+				-Low damge
+				-Short reload
+				-Silent
+			Main Ability: Crossbow
+				-High damage to soft targets
+				-Meduim range
+				-High accuracy
+				-Medium cooldown
+				-Silent
+			Secondary Ability: Booby trap
+				-Hurt enemies who move over it
+				-Very effective against soft targets
+				-Medium cooldown
+				-1-2 uses
+				-Silent
+		Healer:
+			Attributes:
+				-Support character
+				-Medium Speed
+				-Low Health
+			Main Weapon: Pistol
+				-Short range
+				-Medium Accuracy
+				-Medium reload
+			Main Ability: Health Kit
+				-Heal damaged teammates
+				-Returns a set amount of health
+					-ie. it takes longer to heal a Machine Gunner than a Scout
+				-Short range
+				-Medium Cooldown
+				-Silent
+			Secondary Ability: Makeshift cover
+				-Places a small, temporary wall in front of the character
+				-Will block all incoming damage from infront of and behind the wall
+				-Will disappear after a short time
+				-Long Cooldown
+				-1-2 uses
+				-silent
+		Sergeant:
+			Attributes:
+				-Leader
+				-Medium speed
+				-Medium health
+			Main Weapon: Shotgun
+				-Fires multiple projectiles in a spread pattern
+				-Medium damage per projectile
+				-Low rate of fire
+				-Medium range
+				-Low accuracy
+				-Long reload
+			Main Ability: Give Orders
+				-Gain temporary control of a second team-mate
+				-Can be used an infinite number of times, but leaves teammates vulnerable
+				-You relinquish control of the sergeant for the duration of the order
+				-Team mate starts at starting location, and will stay wherever you leave him when you end Give Orders
+				-If you exit a character under Give Orders, orders can be given to a new soldier
+				-If a sergeant exits while there is another soldier (who he previously gave orders to) on the battlefield, you will resume control of the last soldier controlled
+				-Short cooldown
+				-Silent
+			Secondary Ability: Inspire
+				-Use a Give Orders command on an injured/ captive teammate
+				-Cannot use if you have another teammate already being given orders on the battlefield
+				-Medium range
+				-1 use
+		Engineer:
+			Attributes:
+				-Focuses on mobility and counter-mobility operations
+				-Medium speed
+				-Medium health
+			Main Weapon: Pistol
+				-Short range
+				-Medium Accuracy
+				-Medium reload
+			Main Ability: Delayed gernade launcher
+				-Shoot a projectile that ricochets of walls and other cover
+				-Medium range
+				-Explodes with a small AOE splash damage
+				-Short cooldown
+			Secondary Ability: RC drone
+				-Fly/ drive an RC drone into an enemy and detonate it
+				-Cannot move player while controlling drone
+				-Enemies will ignore drone will its being controlled
+				-Effective vs hard targets
+				-Infinite range
+				-Medium cooldown
+				-1-2 uses
+~Shoot an arrow at an enemy
+~Instantly kill any unaware soft target
+		Fire Mage:
+			Attributes:
+				-
+			Main Weapon:
+				-
+			Main Ability:
+				-
+			Secondary Ability:
+				-
+		Water Mage:
+			Attributes:
+				-
+			Main Weapon:
+				-
+			Main Ability:
+				-
+			Secondary Ability:
+				-
+		Wind Mage:
+			Attributes:
+				-
+			Main Weapon:
+				-
+			Main Ability:
+				-
+			Secondary Ability:
+				-
