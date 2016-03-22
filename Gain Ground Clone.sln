@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gain Ground Clone.CSharp.Plugins", "Gain Ground Clone.CSharp.Plugins.csproj", "{8830F8B1-CC8C-96BC-D417-0EA675F6BC19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gain Ground Clone.CSharp", "Gain Ground Clone.CSharp.csproj", "{09D02F34-DDFB-74CE-FA58-63CC6D794CB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8830F8B1-CC8C-96BC-D417-0EA675F6BC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8830F8B1-CC8C-96BC-D417-0EA675F6BC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8830F8B1-CC8C-96BC-D417-0EA675F6BC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8830F8B1-CC8C-96BC-D417-0EA675F6BC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D02F34-DDFB-74CE-FA58-63CC6D794CB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D02F34-DDFB-74CE-FA58-63CC6D794CB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D02F34-DDFB-74CE-FA58-63CC6D794CB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D02F34-DDFB-74CE-FA58-63CC6D794CB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

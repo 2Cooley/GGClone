@@ -203,7 +203,7 @@ Ideas:
 				-Long Cooldown
 				-1-2 uses
 				-silent
-		Sergeant:
+		Lieutenant:
 			Attributes:
 				-Leader
 				-Medium speed
